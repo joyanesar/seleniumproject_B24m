@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.cybertek.tests.day18_actions_pom_intro.classActionsDoubleClickTest">
+        <methods>
+          <include name="doubleClickForColorChange"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day18_actions_pom_intro.classActionsDoubleClickTest -->
+      <class name="com.cybertek.tests.day22_explicitwait_review.WaitUntilElemVisibleTest">
+        <methods>
+          <include name="waitForWebDriverElem"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="cheapInternetSpeedTest"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day22_explicitwait_review.WaitUntilElemVisibleTest -->
+      <class name="com.cybertek.tests.day22_explicitwait_review.CherCherWaitPracticeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="gotoHomePage"/>
+          <include name="waitForCheckBoxIsCheckedTest"/>
+          <include name="waitForButtonEnabledTest"/>
+          <include name="waitForAlertTest"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day22_explicitwait_review.CherCherWaitPracticeTest -->
+      <class name="com.cybertek.tests.day17_upload_js_executor.JavaScriptExecutorTest">
+        <methods>
+          <include name="loginFacebook"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="alertExampleTest"/>
+          <include name="scrollTest"/>
+          <include name="scrollElementVisible"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day17_upload_js_executor.JavaScriptExecutorTest -->
+      <class name="com.cybertek.tests.day10_dropdown_alert_iframes_windows.CarGurusUsedCarSearchTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day10_dropdown_alert_iframes_windows.CarGurusUsedCarSearchTest -->
+      <class name="com.cybertek.tests.day18_actions_pom_intro.ActionClassDemoTest">
+        <methods>
+          <include name="loopActions"/>
+          <include name="tearDown"/>
+          <include name="googleActionsTest"/>
+          <include name="setUp"/>
+          <include name="hoverElementTest"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day18_actions_pom_intro.ActionClassDemoTest -->
+      <class name="com.cybertek.WeeklyAssignments.HoverTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="hoverTest"/>
+          <include name="contextClickTest"/>
+          <include name="dragDropTest"/>
+        </methods>
+      </class> <!-- com.cybertek.WeeklyAssignments.HoverTest -->
+      <class name="com.cybertek.tests.OfficeHour.day04_PlaceOrderTest">
+        <methods>
+          <include name="placeOrder"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.OfficeHour.day04_PlaceOrderTest -->
+      <class name="com.cybertek.tests.day18_actions_pom_intro.ActionsSendKeysTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="rightClickTest"/>
+          <include name="scrollWithKeysTest"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day18_actions_pom_intro.ActionsSendKeysTest -->
+      <class name="com.cybertek.tests.day08_implicitwait_checkbox_radio_testing.TestNGIntro">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day08_implicitwait_checkbox_radio_testing.TestNGIntro -->
+      <class name="com.cybertek.tests.day17_upload_js_executor.Guru99UploadTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="uploadFileTest"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day17_upload_js_executor.Guru99UploadTest -->
+      <class name="com.cybertek.tests.day18_actions_pom_intro.EtsySubscribeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="randomEmailSubscribeTest"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day18_actions_pom_intro.EtsySubscribeTest -->
+      <class name="com.cybertek.tests.day19_page_object_model.DragAndDropTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="guru99DragAndDropTest"/>
+          <include name="cargurusPriceSliderTest"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day19_page_object_model.DragAndDropTest -->
+      <class name="com.cybertek.tests.day19_page_object_model.LibraryLoginPOMTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="invalidCredentialsTest"/>
+          <include name="positiveLoginTest"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day19_page_object_model.LibraryLoginPOMTest -->
+      <class name="com.cybertek.tests.day19_page_object_model.logingPOMTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validTest"/>
+          <include name="invalidTest"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day19_page_object_model.logingPOMTest -->
+      <class name="com.cybertek.tests.day16_download_uploaded_js_executor.File_DownloadTest">
+        <methods>
+          <include name="fileDownloadTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day16_download_uploaded_js_executor.File_DownloadTest -->
+      <class name="com.cybertek.tests.day18_actions_pom_intro.ActionsDragAndDropTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="dragAndDropTest"/>
+        </methods>
+      </class> <!-- com.cybertek.tests.day18_actions_pom_intro.ActionsDragAndDropTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
