@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeMethod;
 
 public abstract class TestBase {
 
-    protected WebDriver driver;
+    protected static WebDriver driver;
     protected Faker faker = new Faker();
     protected Actions actions;
 

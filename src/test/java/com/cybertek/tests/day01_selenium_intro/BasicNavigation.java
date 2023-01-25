@@ -4,7 +4,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class BasicNavigation {
+public class
+BasicNavigation {
     public static void main(String[] args) throws InterruptedException {
 
         //1) set up the browser driver
